@@ -14,8 +14,6 @@ variables:
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
-  pythonVersion: '3.10'
-
 stages:
 - stage: Build
   displayName: Build stage
@@ -23,17 +21,12 @@ stages:
   - job: BuildJob
     pool: myAgentPool
     steps:
-    - task: UsePythonVersion@0
-      inputs:
-        versionSpec: '$(pythonVersion)'
-        addToPath: true
-        architecture: 'x86'
-      displayName: 'Use Python $(pythonVersion)'
+   
 
     - script: |
-        python -m venv antenv
+        python3.10 -m venv antenv
         source antenv/bin/activate
-        python -m pip install --upgrade pip
+        python3.10 -m pip install --upgrade pip
         pip install setup
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
