@@ -1,6 +1,19 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+
+## Agile Development with Azure
+
+This project demonstrates an Agile approach to developing and deploying a Flask-based application using GitHub and Azure. The workflow integrates GitHub Actions and Azure Pipelines for efficient CI/CD and deployment. Key aspects of the project include:
+
+1. **GitHub Repository and GitHub Actions**: The Flask starter code was set up in this repository, leveraging GitHub Actions for streamlined version control and collaboration.
+   
+2. **Azure Pipeline Deployment**: An Azure pipeline was created to automate the deployment of the application to an Azure Web App. The pipeline was configured to build and release updates with each code change, ensuring rapid iteration and deployment.
+
+3. **Self-Hosted Agent**: The pipeline utilized a self-hosted agent, which provided control over the build environment and optimized the deployment process to Azure resources.
+
+4. **Prediction API Integration**: After deployment, the application was successfully configured to fetch predictions through an integrated API endpoint.
+
+This project illustrates the full lifecycle of developing, deploying, and testing a web application on the Azure platform, showcasing the power of Agile practices with modern cloud tools.
 
 ## Project Plan
 <TODO: Project Plan
