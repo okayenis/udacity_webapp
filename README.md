@@ -16,10 +16,11 @@ This project demonstrates an Agile approach to developing and deploying a Flask-
 This project illustrates the full lifecycle of developing, deploying, and testing a web application on the Azure platform, showcasing the power of Agile practices with modern cloud tools.
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+Trello Board
+https://trello.com/b/HqgvA3rc/udacity
+
+Spread Sheet TBA
 
 ## Instructions
 
